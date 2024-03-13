@@ -11,4 +11,4 @@ Gender: choose only one gender
 Password: Password Must contain at least one number, one uppercase, lowercase letter, special characters, and at least 8 or more characters.
 Also able to show and hide the password when clicking the 👁(eye) icon.
 Confirm password.
-When clicking the SignUp button, if it is successful direct to www.cybrosys.com
+When clicking the SignUp button, if it is successful direct to www.google.com
