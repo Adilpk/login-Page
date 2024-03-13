@@ -240,7 +240,7 @@ $("#submitbtn").click(function(event){
     console.log(usernameerror,emailerror,ageerror,userpassworderror,cpasserror);
     if ( usernameerror == true && emailerror == true && ageerror == true && userpassworderror == true && cpasserror == true && addrsserror == true)
     {
-        window.location.href = "https://www.cybrosys.com/";
+        window.location.href = "https://www.google.com/";
     }
     else{
         swal("Invalid Entry", "check your entered data", "error", {
