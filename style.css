@@ -1,0 +1,108 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;   
+  
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("media/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    padding-top: 50px;    
+    
+}
+.sign-up{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.sign-up h2{
+    margin: 0 0 15px;
+    padding: 10px;
+    color:rgb(105, 34, 157);
+    text-align: center;
+    text-transform: uppercase;
+}
+.forms {
+    position: relative;
+    margin-bottom: 0;
+}
+.forms input,textarea{
+    width: 100%;
+    padding: 3px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: rgba(85, 36, 27, 0.952);
+    border: none;
+    border-bottom: 2px solid #3333;
+    outline: none;
+    
+}
+input[type=submit]{
+    background-color: rgb(62, 48, 213);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.password-section {
+    position: relative;
+    display: inline-block;
+ }
+
+ .password-section .fa-eye {
+    position: absolute;
+    top: 30%;
+    right: 10px; 
+    transform: translateY(-50%);
+    cursor: pointer;
+ }
+ .password-section .fa-eye-slash {
+    position: absolute;
+    top: 76%;
+    right: 22px; 
+    transform: translateY(-50%);
+    cursor: pointer;
+ }
+ .dialog-box{
+    max-width: 460px;
+    max-height: 10px;
+    padding-top: 10px;
+ }
+ input[type=submit]{
+    background-color:  rgb(62, 48, 213);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}

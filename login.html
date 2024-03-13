@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>signup page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="sign-up">
+                
+                <h2>Sign Up</h2>
+        
+            <form>
+            <div class="forms">
+                <h5 id="usercheck" style="color: red;"> **Username is missing</h5>
+            <input type="text" id="name" placeholder="please enter your name" required>
+            </div>
+            <div class="forms">
+                <h5 id="mailcheck" style="color: red;"> **email is missing</h5>
+                <input type="text" id="email" placeholder="please enter your email" required> 
+            </div>
+            <div class="forms">
+                <h5 id="add" style="color: red;"> ** address missing</h5>
+                <textarea id="address" rows="4" cols="20" required placeholder="enter your address"></textarea>
+            </div>
+            <div class="forms">
+                <h5 id="dateob" style="color: red;"> **Date of birth is missing</h5>
+                <input type="date" id="dob" >
+                
+            </div>
+            <div class="forms">
+                <h5 id="calcage" style="color: red;"> **Age is missing</h5>
+                <input type="text" id="age" readonly >
+            </div>
+            
+                <input type="radio" id="male" name="gender">male &nbsp;&nbsp;
+                <input type="radio" id="female" name="gender">female<br><br>
+            
+            <div class="forms">
+                <h5 id="passcheck" style="color: red;"> **Password is missing</h5>
+                <input type="password" name="password" id="password"  placeholder="enter your password"  onpaste="return false;" required >
+                <span class="password-toggle-icon"><i class="fas fa-eye-slash" id="eye"></i></span>
+                <br>
+                
+            </div>
+            
+            <div class="forms">
+                <h5 id="cpasscheck" style="color: red;"> **conform password is not match</h5>
+                <input type="password" id="cpassword" name="cpassword"  placeholder="Enter your conform your password " onpaste="return false;"  required >
+                <span class="password-toggle-icon"><i class="fas fa-eye-slash" id="eye2"></i></span>
+                <br>
+            </div>
+                <input type="submit" id="submitbtn" value="submit">
+         
+        </div>
+        </form>
+        </div>
+        </div>
+            
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script> 
+    <script src="app.js"></script>
+    
+</body>
+   
+</html>
+
+
+
