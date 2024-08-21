@@ -12,3 +12,5 @@ Password: Password Must contain at least one number, one uppercase, lowercase le
 Also able to show and hide the password when clicking the 👁(eye) icon.
 Confirm password.
 When clicking the SignUp button, if it is successful direct to www.google.com
+
+![image alt](https://github.com/Adilpk/login-Page/blob/8469e74b19196eef4dfcfb09332ab251ce26092a/login.png)
